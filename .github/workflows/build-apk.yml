@@ -19,7 +19,7 @@ jobs:
 
       - name: Build APK
         run: |
-          unzip -o VynPhone-v1-source.zip -d source
+          unzip -o VynPhone-v2-source.zip -d source
           cd source
           gradle assembleDebug
 
